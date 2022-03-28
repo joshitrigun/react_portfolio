@@ -4,7 +4,12 @@ import "./Topbar.scss";
 const Topbar = () => {
   return (
     <div className="topbar">
-      <h1>I am topbar</h1>
+      <div className="wrapper">
+        <div className="left">
+          <a href="#intro_id">Intro</a>
+        </div>
+        <div className="right"></div>
+      </div>
     </div>
   );
 };
