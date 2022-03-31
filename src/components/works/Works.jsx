@@ -3,7 +3,7 @@ import "./Works.scss";
 
 const Works = () => {
   return (
-    <div className="works" id="works_id">
+    <div className="works" id="works">
       Works
     </div>
   );
